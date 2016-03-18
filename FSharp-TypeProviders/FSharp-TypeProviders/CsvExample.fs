@@ -8,4 +8,4 @@ let DoCsv =
     let csv = csvProvider.Load("MOCK_DATA.csv")
 
     for r in csv.Rows do
-        printfn "%A, %s, %F" r.Id r.First_name r.Money 
+        printfn "CSV - %A, %s, %F %A" r.Id r.First_name r.Money r.Day_of_birth

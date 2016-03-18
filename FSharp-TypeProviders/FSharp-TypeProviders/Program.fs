@@ -7,5 +7,8 @@
 //    0 // return an integer exit code
 
 open CsvExample
+open JsonExample
 
-DoCsv 
+//DoCsv 
+DoJson1
+//DoJson2
